@@ -1,0 +1,15 @@
+# Poswiadczenia - nigdy do repo. Szablon: secrets.h.example
+secrets.h
+
+# Artefakty buildu Arduino IDE / arduino-cli
+build/
+*.bin
+*.elf
+*.map
+
+# Edytory i system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
