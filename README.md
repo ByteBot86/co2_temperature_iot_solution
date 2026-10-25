@@ -1,7 +1,7 @@
 # Czujnik CO2 — ESP32-S3 + SCD40
 
 Węzeł IoT mierzący CO2, temperaturę i wilgotność. Wysyła średnie z minuty do
-InfluxDB Cloud, a przy wysokim CO2 wysyła alert push przez ntfy.sh.
+InfluxDB Cloud, a przy wysokim CO2 wysyła alert push przez ntfy.sh na urzadzenie mobilne.
 
 ```
 SCD40 --I2C--> ESP32-S3 --HTTPS--> InfluxDB Cloud --> dashboard
